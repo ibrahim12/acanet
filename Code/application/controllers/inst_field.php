@@ -26,5 +26,3 @@ class Inst_field extends CI_Controller {
 
 }
 ?>
-
-

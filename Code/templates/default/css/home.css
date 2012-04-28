@@ -1,0 +1,155 @@
+/* 
+    Document   : home.css
+    Created on : Apr 27, 2011, 7:00:39 PM
+    Author     : IR
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+#recent-post-load-div{
+   padding : 2px; 
+}
+.hidden{
+    display: none;
+}
+.rounded {
+  border-radius:3ex 3ex 0ex 3ex;
+  -webkit-border-radius:3ex 3ex 0ex 3ex;
+  -moz-border-radius:3ex 3ex 0ex 3ex;
+  border : 1px solid black;
+}
+
+.shadow {
+    box-shadow: 2px 2px 2px rgba(10,32,34,0.6);
+   -webkit-box-shadow: 2px 2px 2px rgba(10,32,34,0.6);
+   -moz-box-shadow: 2px 2px 2px rgba(10,32,34,0.6);
+}
+
+.posts{
+   padding-left: 8px;
+   padding-top: 2px;
+   margin-top:2px;
+   font-size: 9pt;
+  
+}
+
+.posts-reply{
+    padding-left: 10px;
+    padding-right: 20px;
+    padding-top: 2px;    
+    font-size: 8pt;    
+}
+
+.post-post-reply-wrapper{
+    margin: 1em 0 1em 0;
+}
+
+.post-reply-wrapper{    
+    border: 1px solid black;
+    margin-left: 30px;        
+
+    border-radius:0ex 0ex 3ex 3ex;
+   -webkit-border-radius:0ex 0ex 3ex 3ex;
+   -moz-border-radius:0ex 0ex 3ex 3ex;
+    box-shadow: 2px 2px 2px rgba(10,32,34,0.6);
+   -webkit-box-shadow: 2px 2px 2px rgba(10,32,34,0.6);
+   -moz-box-shadow: 2px 2px 2px rgba(10,32,34,0.6);
+    background: rgb(237,239,244);
+    opticity: .2px;    
+}
+
+.posts .post-datetime,.posts-reply .post-datetime{
+    clear:both;
+    margin:-1.0em 0 0.5em 0;
+    font-family:"trebuchet ms",arial,sans-serif;
+    color:rgb(125,125,125);
+    font-weight:normal;
+    font-size:100%;
+    color:darkgreen;
+}
+.posts-reply .post-datetime{
+    margin: 0.5em 0 0 0;
+}
+.posts .post-title{
+    clear:both;
+    margin:1.0em 0 1em 0;
+    font-family:"trebuchet ms",arial,sans-serif;
+    color:rgb(80,80,80);
+    font-weight:normal;
+    font-size: 150%;
+}
+
+.posts .post-description,.posts-reply .post-description{
+
+    margin : 0 0 1em 0;
+    padding-left: 2px;    
+    text-align: left;
+    font-size: 10pt;
+    color:olivedrab;
+}
+.posts-reply .post-description{
+    margin : 0.5em 0 0.5em 0;    
+}
+.post-reply-input-div{
+    margin: 1em 0 0 0;
+    padding : 2px 2px 0 10px;
+
+    border-radius:0ex 0ex 3ex 0ex;
+   -webkit-border-radius:0ex 0ex 3ex 0ex;
+   -moz-border-radius:0ex 0ex 3ex 0ex;
+}
+.post-reply-input{    
+    padding-right: 32%;
+    resize :none;
+    margin-bottom:5px;
+    
+}
+.post-description .read-more{
+    font-size: 8pt;
+}
+
+.odd{
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.3);
+    -webkit-box-shadow: 2px 2px 2px rgba(0,0,0,0.3);
+    -moz-box-shadow: 2px 2px 2px rgba(0,0,0,0.3);
+    /*background-color :#F2F7F6;*/
+    
+}
+.even{
+   box-shadow: 2px 2px 2px rgba(10,32,34,0.6);
+   -webkit-box-shadow: 2px 2px 2px rgba(10,32,34,0.6);
+   -moz-box-shadow: 2px 2px 2px rgba(10,32,34,0.6);
+    /*background-color :#F2F7F6;*/
+}
+
+
+a.replySubmit{
+    width: 40px;
+    height: 10px;
+    padding: 2px;    
+    text-decoration: none;
+}
+
+.replySubmitButtonDiv:hover{
+    background-color:#E2E2E2;  
+}
+.replySubmitButtonDiv{
+  display: block;
+  width: 40px;
+  height: 20px;                                                
+  float:right;
+  background-color:#F2F2F2;  
+  margin:4px;
+  margin-right:10px;
+  padding-top: 4px;
+  padding-left: 10px;
+  box-shadow: 2px 2px 2px rgba(10,32,34,0.6);
+  -webkit-box-shadow: 2px 2px 2px rgba(10,32,34,0.6);
+  -moz-box-shadow: 2px 2px 2px rgba(10,32,34,0.6);
+   cursor: pointer;
+}

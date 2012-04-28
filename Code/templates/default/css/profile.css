@@ -1,0 +1,61 @@
+/* 
+    Document   : profile
+    Created on : May 20, 2011, 12:06:05 AM
+    Author     : oly
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root { 
+    display: block;
+}
+.short{
+    margin:10px;
+    height:50px;
+    
+    text-align: center;
+    padding: 2em 0 2em 0;
+    background-color:#F2F2F2;
+    font-family: "trebuchet ms",arial,sans-serif;
+    font-size:10pt;
+    line-height: 1.5em;
+
+}
+.long{
+    margin:10px;
+    height:50px;
+    
+    text-align: center;
+    padding: 2em 0 2em 0;
+    background-color:#F2F2F2;
+    font-family: "trebuchet ms",arial,sans-serif;
+    font-size:10pt;
+    line-height: 1.5em;
+}
+
+.post-title{
+    clear: both;
+    color: #505050;
+    font-family: "trebuchet ms",arial,sans-serif;    
+    font-weight: normal;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 1em;
+    font-size: 10pt;
+}
+.post-description{
+    color: olivedrab;    
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    padding-left: 2px;
+    text-align: left;
+    font-size: 10pt;
+}

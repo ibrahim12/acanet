@@ -1,0 +1,5 @@
+1. Database Tables
+     1. institution_field` int(20) instaead int(10)...while foreign key contains int(10)
+     2. Institution table location filed is text instead varchar(100)
+     3. Community table type filed will be enum(private,public);
+

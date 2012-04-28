@@ -14,7 +14,7 @@
 | path to your installation.
 |
 */
-$config['base_url']	= 'http://localhost/archive/Web Projects/Orgnizational/Acanet/Code/';
+$config['base_url']	= 'http://localhost/IRashid/acanet/Code/';
 
 /*
 |--------------------------------------------------------------------------
